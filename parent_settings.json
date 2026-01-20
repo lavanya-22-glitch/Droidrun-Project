@@ -1,0 +1,83 @@
+{
+    "happy_hour_start": "16:00",
+    "happy_hour_end": "17:00",
+    "blacklist": [
+        "skibidi",
+        "prank",
+        "brainrot",
+        "sex",
+        "hot",
+        "kiss"
+    ],
+    "violations": [
+        {
+            "reason": "Instagram",
+            "time": "12:23 AM"
+        },
+        {
+            "reason": "Instagram",
+            "time": "12:28 AM"
+        },
+        {
+            "reason": "Instagram",
+            "time": "01:11 AM"
+        },
+        {
+            "reason": "YouTube Shorts",
+            "time": "01:12 AM"
+        },
+        {
+            "reason": "YouTube Shorts",
+            "time": "01:13 AM"
+        },
+        {
+            "reason": "Keyword match: Skibidi Toilet 1 - 80 ALL Episodes (60 FPS REMASTERED) Titan Speakerman 3.0 (Episode 81?)",
+            "time": "01:15 AM"
+        },
+        {
+            "reason": "Instagram",
+            "time": "01:15 AM"
+        },
+        {
+            "reason": "Browser Block: m.youtube.com",
+            "time": "01:16 AM"
+        },
+        {
+            "reason": "Instagram",
+            "time": "01:23 AM"
+        },
+        {
+            "reason": "YouTube Shorts",
+            "time": "01:23 AM"
+        },
+        {
+            "reason": "YouTube Shorts",
+            "time": "01:24 AM"
+        },
+        {
+            "reason": "Keyword match: Super Granny VS Skibidi toilet in real Compilation 2",
+            "time": "01:25 AM"
+        },
+        {
+            "reason": "YouTube Shorts",
+            "time": "01:27 AM"
+        },
+        {
+            "reason": "YouTube Shorts",
+            "time": "01:27 AM"
+        },
+        {
+            "reason": "YouTube Shorts",
+            "time": "01:27 AM"
+        },
+        {
+            "reason": "YouTube Shorts",
+            "time": "01:27 AM"
+        },
+        {
+            "reason": "Browser Block: m.youtube.com",
+            "time": "01:34 AM"
+        }
+    ],
+    "last_reset": "2026-01-21"
+}

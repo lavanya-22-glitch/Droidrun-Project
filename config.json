@@ -1,0 +1,24 @@
+{
+    "strict_mode": true,
+    "telegram": {
+        "enabled": false,
+        "bot_token": "YOUR_TOKEN_HERE",
+        "chat_id": "YOUR_ID_HERE"
+    },
+    "url_blacklist": [
+        "youtube.com/shorts",
+        "instagram.com/reels",
+        "tiktok.com"
+    ],
+    "keywords": {
+        "allowed": ["math", "physics", "coding", "tutorial", "documentary", "history"],
+        "blocked": ["skibidi", "prank", "brainrot", "meme", "vlog", "challenge"],
+        "critical": ["fight", "violence", "blood", "kill", "gambling"]
+    },
+    "stats": {
+        "insta_reels_blocked": 0,
+        "yt_brainrot_blocked": 0,
+        "critical_alerts_sent": 0,
+        "last_violation": "None"
+    }
+}

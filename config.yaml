@@ -1,0 +1,37 @@
+# config.yaml
+provider: Ollama
+model: phi3:latest
+
+# Force specific settings for Ollama to prevent the 50GB crash
+llm_profiles:
+  default:
+    provider: Ollama
+    model: phi3:latest
+    api_key: ignore
+    temperature: 0.1
+    request_timeout: 300.0
+    # The fix for the 50GB error: Force a small context window
+    additional_kwargs:
+      num_ctx: 2048 
+
+  # We must override ALL profiles to stop it from sneaking in a Google model
+  manager:
+    provider: Ollama
+    model: phi3:latest
+    api_key: ignore
+    additional_kwargs:
+      num_ctx: 2048
+
+  executor:
+    provider: Ollama
+    model: phi3:latest
+    api_key: ignore
+    additional_kwargs:
+      num_ctx: 2048
+      
+  codeact:
+    provider: Ollama
+    model: phi3:latest
+    api_key: ignore
+    additional_kwargs:
+      num_ctx: 2048
